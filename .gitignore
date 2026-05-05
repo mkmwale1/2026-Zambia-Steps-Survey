@@ -1,0 +1,24 @@
+# Ignore R source files
+*.Rmd
+*.R
+*.Rproj
+.Rhistory
+.Rproj.user
+
+# Ignore all data files
+*.csv
+*.xlsx
+data*.csv
+
+# Ignore R environment
+.RData
+.Renviron
+
+# Only track HTML reports
+!*.html
+
+# Ignore Google Drive system files
+*.gdoc
+*.gsheet
+desktop.ini
+.DS_Store
